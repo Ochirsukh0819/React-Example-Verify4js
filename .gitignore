@@ -63,3 +63,7 @@ jspm_packages
 
 # Temp Word docs
 ._*.docx
+package.json
+package-lock.json
+package.json
+.gitignore
