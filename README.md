@@ -1,19 +1,8 @@
 # FronEnd npm package usage 
 PDF файлын Notly системээр блокчэйн дээр баталгаажсан эсэхийг шалгах сан. React js project хэрэглэж үзэв. 
 
-## Суулгах заавар
 
-npm-ээс татаж авч суулгах эсвэл шууд эх кодыг хуулж авч ашиглаж болно.
-npm install certifyteojs
-
-<< frontend: >>
-import * as Verify from "certifyteojs";
-
-Verify.verify(pdfArrayBuffer, nodeUrl)
-.then(res => { // console.log(res); })
-.catch(err => { console.error(err.message); })
-
-### Тайлбар 
+### Ажиллуулах тайлбар 
 
 ```
 <<< main function >>>
@@ -43,7 +32,7 @@ Verify.verify(pdfArrayBuffer, nodeUrl)
     }
   }
 - **reader.readAsArrayBuffer**  тусламжтайгаар pdf file array buffer байдлаар уншина. 
-   **reader.onload** уншсан pdf file агуулгыг uint8Array руу хөрвүүлж байгаа. 
+   **reader.onload** уншсан pdf file агуулгыг Int8Array руу хөрвүүлж байгаа. 
    **Verify.verify(view, "https://node.teo.mn")** сан дуудаж хөрвүүлсэн утгаа дамжуулна.
 ```
 
